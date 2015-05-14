@@ -2,7 +2,9 @@
 YOUR STYLES
 *******************/
 
-
+video {
+	border: 12px solid black;
+}
 
 
 /********************
