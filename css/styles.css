@@ -1,9 +1,70 @@
-/********************
-YOUR STYLES
-*******************/
+.container {
+	max-width: 960px;
+	margin: 25px auto;
+}
+
+.group:after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+/* COLUMNS */
+
+[_col] {
+	float: left;
+	margin: 0 15px;
+}
+
+[_col~="1/3"] {
+	width: calc(33.333333333% - 30px);
+}
+
+[_col~="1/2"] {
+	width: calc(50% - 30px);
+}
+
+[_col~="2/3"] {
+	width: calc(66.6666666666% - 30px);
+}
+
+[_col~="1"] {
+	width: calc(100% - 30px);
+}
+
+[_col~="right"] {
+	float: right;
+}
+
+[_col~="center"] {
+	float: none;
+	margin: 0 auto;
+}
+
+/* video */
 
 video {
 	border: 12px solid black;
+}
+
+/* background */
+
+[src*="ship"] {
+	width: 100%;
+ -webkit-animation-name: floating;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes floating {
+	from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+
+body {
+	background-image: url('../img/blackorchid.png');
 }
 
 
