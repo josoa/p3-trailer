@@ -7,7 +7,9 @@ $('audio,video').mediaelementplayer({
 	  $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
 	},
 	startLanguage: 'en',
-	translationSelector: true
+	translationSelector: true,
+  alwaysShowControls: true,
+  videoWidth: 100%
 });
 
 

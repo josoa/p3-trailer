@@ -1,3 +1,7 @@
+body {
+	background-image: url('../img/blackorchid.png');
+}
+
 .container {
 	max-width: 960px;
 	margin: 25px auto;
@@ -41,16 +45,89 @@
 	margin: 0 auto;
 }
 
+/* type */
+
+body {
+	font-size: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	text-align: right;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: .125em;
+}
+
+/* color */
+
+nav a {
+	color: #fff;
+}
+
+/* header */
+
+header {
+	z-index: 99;
+	background-image: url('../img/blackorchid.png');
+	/*position: fixed;*/
+}
+
+[src*="logo"] {
+	padding-top: 30px;
+}
+
+[src*="ship"] {
+ 	-webkit-animation-name: floating;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+/*.top {
+	margin-top: 300px;
+	z-index: 999;
+}*/
+
+/* nav */
+
+
+
 /* video */
 
 video {
-	
+	width: 50%;
+	z-index: 999;
+}
+
+.mejs-container {
+	width: 100%;
 }
 
 /* video controls */
 
 /* hooks for controls:
 
+.mejs-container
+.mejs-inner
+.mejs-mediaelement
+.mejs-layers
+.mejs-controls
 .mejs-button 
 .mejs-playpause-button
 .mejs-play
@@ -75,15 +152,6 @@ video {
 .mejs-volume-handle
 .mejs-fullscreen-button */
 
-/* background */
-
-[src*="ship"] {
-	width: 100%;
- -webkit-animation-name: floating;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-}
 
 @-webkit-keyframes floating {
 	from {-webkit-transform:translate(0, 0px);}
@@ -91,9 +159,7 @@ video {
     to {-webkit-transform: translate(0, -0px);    }    
 }
 
-body {
-	background-image: url('../img/blackorchid.png');
-}
+
 
 
 
