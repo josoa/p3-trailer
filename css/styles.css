@@ -44,8 +44,36 @@
 /* video */
 
 video {
-	border: 12px solid black;
+	
 }
+
+/* video controls */
+
+/* hooks for controls:
+
+.mejs-button 
+.mejs-playpause-button
+.mejs-play
+.mejs-time
+.mejs-currenttime-container
+.mejs-time-rail
+.mejs-time-total
+.mejs-time-buffering
+.mejs-time-loaded
+.mejs-time-current
+.mejs-time-handle
+.mejs-time-float
+.mejs-time-float-current
+.mejs-time-float-corner
+.mejs-duration-container
+.mejs-duration
+.mejs-volume-button
+.mejs-mute
+.mejs-volume-slider
+.mejs-volume-total
+.mejs-volume-current
+.mejs-volume-handle
+.mejs-fullscreen-button */
 
 /* background */
 
