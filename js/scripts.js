@@ -9,7 +9,6 @@ $('audio,video').mediaelementplayer({
 	startLanguage: 'en',
 	translationSelector: true,
   alwaysShowControls: true,
-  videoWidth: 100%
 });
 
 
