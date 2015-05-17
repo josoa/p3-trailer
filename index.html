@@ -4,63 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width">
 
-  <title>p3-trailer</title>
+  <title>P3: Trailer</title>
  
-  <link rel="stylesheet" href="css/normalize.css">  
-  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="js/skin.css">
+  <link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">  
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/mediaplayer.css"> 
   <link rel="stylesheet" href="css/styles.css">	
 	
 </head>
 <body>
+	
+  <!-- 1st Row -->
+	<div class="grid-container">
+    <div class="grid-12">
+      
+      <!-- Change value to your video height & width -->
+      <video class="mejs-378" height="720" width="1280" controls>
+        
+          <source src="video/me.mov" type="video/mov">
+          <source src="video/me.mp4" type="video/mp4">
+          <source src="video/me.ogg" type="video/ogg">
 
-<div class="container">
+      </video>  
+    
+    </div>
+  </div>
 
+  <!-- 2nd Row -->
+  <div class="grid-container">
+    
+    <!-- 2nd Row: 1st Column -->
+    <div class="grid-6">
+        <h3>Movie</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa modi dolore ad tenetur similique ipsum totam suscipit ducimus, quia laboriosam aliquid tempora! Omnis, perspiciatis inventore quam ratione quibusdam ullam atque!</p>
+    </div>
+    
+    <!-- 2nd Row: 2nd Column -->
+    <div class="grid-6">
+        <h3>Additional Info</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil voluptates nisi eum dolorem perferendis tenetur nemo qui quas atque, cupiditate quasi at iste possimus eveniet quae, quia ut libero distinctio.</p>
+    </div>
+  
+  </div>
+	
 
-	<header class="group">
-    <img _col="1/3" src="svg/logo-01.svg" alt="">
-    <img _col="1/3" src="img/ship.png" alt="">
-    <nav _col="1/3">
-      <ul>
-        <li><a href="#top">top</a></li>
-        <li><a href="#trailer">watch trailer</a></li>
-        <li><a href="#tix">buy tickets</a></li>
-        <li><a href="#music">soundtrack</a></li>
-        <li><a href="#zine">the magazine</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section _col="1" class="group">
-    <h1>A step beyond science fiction</h1>
-  </section>
-
-  <section _col="1" class="trailer group">
-    <h2><em>warning!</em> preview intended for mature audiences only</h2>
-    <button>watch now</button>
-  </section>
-
-
-
- <section _col="1" class="top">
-  <img src="img/tvsetup-2.png" alt="tv screen and vcr">
-  <img src="img/deck-4.png" alt="">
-    <video controls>
-      <source src="video/trailer.mp4" type="video/mp4">
-    </video>
-  </section>
-
-
-  <section _col="1" class="group">
-    <h3>coming to a theater near you <span id="countDown">soon</span></h3>
-    <button>get tickets</button>
-  </section>
-
-
-</div>
 <!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="js/media.js"></script>
+  <script type="text/javascript" src="js/mediaplayer.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
