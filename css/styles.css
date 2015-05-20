@@ -88,7 +88,15 @@ body {
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
 
+#tv {
+	z-index: 3;
+}
 
+video{
+	position: relative;
+	bottom: 400px;
+	left: 100px;
+}
 /********************
 MEDIA QUERIES
 *******************/
