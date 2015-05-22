@@ -4,25 +4,28 @@ var click = 0;
 
 var player = $('video').mediaelementplayer();
 		
-$('#trailer').hide();
-$('#static').show();
-
+$('#static').hide();
 
 $('#channel').click( 
 	function () {
+		player[0].stop();
+		$('#static').show();
+		$('#trailer').hide();
 		$('#dial').removeClass('dial' + click);
 		click++;
 		player[1].play;
 		$('#dial').addClass('dial' + click);
 		
 
-			if (click > 3) {
+			if (click == 4) {
 				$('#static').hide();
 				$('#trailer').show();
 				player[0].play();
 				click = 0;
 				$('#dial').removeClass('dial4');
+
 			}
+
 
 			console.log('dial' + click);
 	}
