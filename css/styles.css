@@ -114,21 +114,22 @@ img, video, audio {
 	left: 842px;
 }
 
+.dial0 {
+	transform: rotate(0);
+}
+
 .dial1 {
-	transform: rotate(25deg);
+	transform: rotate(45deg);
 }
 
 .dial2 {
-	transform: rotate(65deg);
+	transform: rotate(90deg);
 }
 
 .dial3 {
-	transform: rotate(105deg);
+	transform: rotate(180deg);
 }
 
-.dial4 {
-	transform: rotate(125deg);
-}
 
 #static {
 	z-index: -3;
@@ -154,6 +155,11 @@ img, video, audio {
 	bottom: 772px;
 	left: 881px;
 
+}
+
+.channel {
+	position: relative;
+	bottom: 1003px;
 }
 
 #channel, #channel-1, #channel-2, #channel-3, #channel-4, #channel-5 {
