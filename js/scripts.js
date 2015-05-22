@@ -33,6 +33,8 @@ $('#channel').click(
 
 $('#channel-1').click(
 	function() {
+		player[0].stop();
+
 		$('#dial').removeClass('dial' + click);
 		click = 1;
 		$('#dial').addClass('dial' + click);
@@ -43,6 +45,8 @@ $('#channel-1').click(
 );
 $('#channel-2').click(
 	function() {
+		player[0].stop();
+
 		$('#dial').removeClass('dial' + click);
 		click = 2;
 		$('#dial').addClass('dial' + click);
@@ -53,6 +57,8 @@ $('#channel-2').click(
 );
 $('#channel-3').click(
 	function() {
+		player[0].stop();
+		
 		$('#dial').removeClass('dial' + click);
 		click = 3;
 		$('#dial').addClass('dial' + click);
