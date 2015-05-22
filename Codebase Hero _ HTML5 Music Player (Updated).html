@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://www.codebasehero.com/2011/07/html5-music-player-updated/ -->
+<html lang="en-US" class="csstransforms csstransforms3d csstransitions js cssanimations csstransitions"><!--                               <![endif]--><!-- DESIGN & CODE BY THEMEBEANS OF HTTP://WWW.THEMEBEANS.COM. --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<!-- META TAGS -->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Codebase Hero | HTML5 Music Player (Updated)</title>
+	
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+	<!-- RSS & PINGBACKS -->
+	<link rel="alternate" type="application/rss+xml" href="http://www.codebasehero.com/feed/">
+	<link rel="alternate" type="application/rss+xml" href="http://www.codebasehero.com/comments/feed/" title="Codebase Hero latest comments">
+	<link rel="pingback" href="http://www.codebasehero.com/xmlrpc.php"> 
+	
+		
+	<link rel="alternate" type="application/rss+xml" title="Codebase Hero » Feed" href="http://www.codebasehero.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Codebase Hero » Comments Feed" href="http://www.codebasehero.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Codebase Hero » HTML5 Music Player (Updated) Comments Feed" href="http://www.codebasehero.com/2011/07/html5-music-player-updated/feed/">
+<link rel="stylesheet" id="bean-css" href="./Codebase Hero _ HTML5 Music Player (Updated)_files/framework.css" type="text/css" media="all">
+<link rel="stylesheet" id="main-style-css" href="./Codebase Hero _ HTML5 Music Player (Updated)_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="mobile-css" href="./Codebase Hero _ HTML5 Music Player (Updated)_files/mobile.css" type="text/css" media="all">
+<div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div><script type="text/javascript" async="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/ga.js"></script><script id="facebook-jssdk" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/all.js"></script><script id="twitter-wjs" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/widgets.js"></script><script type="text/javascript" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/jquery.js"></script>
+<script type="text/javascript" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/jquery-migrate.min.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.codebasehero.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.codebasehero.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Elegant Form Kit" href="http://www.codebasehero.com/2011/06/elegant-form-kit/">
+<link rel="next" title="HTML5 Video Player" href="http://www.codebasehero.com/2011/07/html5-video-player/">
+<link rel="canonical" href="./Codebase Hero _ HTML5 Music Player (Updated)_files/Codebase Hero _ HTML5 Music Player (Updated).html">
+<link rel="shortlink" href="http://www.codebasehero.com/?p=82">
+	
+	
+<style>
+	 
+		
+		.single-pagination .pagination { float: left!important; }  
+	
+	
+</style>
+
+			<link rel="shortcut icon" href="http://www.codebasehero.com/wp-content/uploads/2013/09/favicon.jpg"> 
+			<link rel="apple-touch-icon-precomposed" href="http://www.codebasehero.com/wp-content/themes/blooog/assets/images/apple-touch-icon.png">
+			
+			
+		<style></style>		
+				
+		
+
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+
+<body class="single single-post postid-82 single-format-image chrome" data-twttr-rendered="true" data-pinterest-extension-installed="cr1.37" style="">
+					
+ 	<div id="responsive-nav" class="show-for-small animated BeanFadeIn">
+ 		
+ 		 		
+	</div><!-- END #responsive-nav --> 	
+	
+	<div class="responsive-branding show-for-small">
+	
+		<div class="logo">
+		
+				  	
+	  	<a href="http://www.codebasehero.com/" title="Codebase Hero" rel="home">
+	
+	 					
+				 <h1 class="logo_text">Codebase Hero</h1>
+				 
+	 		 			  
+		</a>
+		
+				
+		</div><!-- END .logo -->
+		
+		<h2 class="branding-tagline">I create mousemade pixel perfection stuffs for the interwebs.</h2>
+	
+	</div><!-- END #responsive-branding --> 
+	
+
+		<div class="header-nav full" style="display: none;">
+		
+			<div class="twelve columns">
+			
+				<div class="widget widget_text clearfix"><h3 class="widget-title"><span>Advertisement</span></h3>			<div class="textwidget"><p>Be sure to check out <a href="http://www.duetapp.com/" target="_blank">Duet</a> - Professional project management hosted on your own server!</p>
+</div>
+		</div>			
+			</div><!-- END .six columns -->
+		
+		</div><!-- END .header-nav -->	
+
+	
+<div id="wrapper" class="animated BeanFadeIn">	
+	
+	<aside class="sidebar hide-for-small five columns" role="complementary">
+		
+			
+ 
+ 
+
+<div class="logo">
+
+		  	
+	  	<a href="http://www.codebasehero.com/" title="Codebase Hero" rel="home">
+	
+	 					
+				 <h1 class="logo_text">Codebase Hero</h1>
+				 
+	 		 			  
+		</a>
+		
+		
+</div><!-- END .logo -->
+
+<h2 class="branding-tagline"></h2>
+
+ 
+
+	<div class="widget">
+	
+	<h3 class="widget-title">Menu</h3>
+	
+	<ul id="menu-main" class="sidebar-navigation"><li id="menu-item-144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-144"><a href="http://www.codebasehero.com/">Freebies</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="http://www.codebasehero.com/licensing/">Licensing</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="http://www.codebasehero.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="http://www.23andwalnut.com/">Freelance</a></li>
+</ul>		
+</div><!-- END .widget -->
+
+
+<div class="widget widget_text clearfix"><h3 class="widget-title"><span>Try Duet</span></h3>			<div class="textwidget"><div id="sidebar-notice"><a href="http://www.duetapp.com/" target="_blank">
+Professional project management hosted on your own server.
+</a></div></div>
+		</div><div class="widget widget_bean_newsletter clearfix"> 
+		
+	<h3 class="widget-title"><span>Newsletter</span></h3>				
+	<div class="bean-newsletter">
+	
+		<form action="http://23andwalnut.us7.list-manage.com/subscribe/post?u=0a91c3cf241ce93231ff46c29&id=21f9cb328e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+		
+			<input type="email" name="EMAIL" class="email-newsletter " id="mce-EMAIL" value="Subscribe" required="" onfocus="this.value=&#39;&#39;;" onblur="if(this.value==&#39;&#39;)this.value=&#39;Subscribe&#39;;">
+			
+			<button class="button" type="submit">Submit</button>
+		
+		</form><!-- END .form -->
+		
+		<div class="clear"></div>
+	
+    </div><!--END .bean-newsletter-->
+	
+	</div><div class="widget widget_bean_social_profiles clearfix"><h3 class="widget-title"><span>Social Profiles</span></h3>	
+	<div class="bean-social-profiles clearfix">                        
+	                   	
+	    <ul>
+						    <li class="twitter">
+			        <a href="https://twitter.com/23andwalnut" title="Twitter"></a>
+			    </li>
+						
+						    <li class="facebook">
+			        <a href="http://www.facebook.com/23andwalnut" title="Facebook"></a>
+			    </li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+		</ul>		
+	
+	</div>	<!-- END .bean-social-profiles clearfix -->		
+	
+	</div>
+		
+		<div class="copyright">
+			
+			© 2013 <a href="http://www.23andwalnut.com/">23rd &amp; Walnut</a> 
+
+		</div> <!--END .colophon-->
+				
+			
+	</aside><!-- END #sidebar -->
+
+	<div id="page">
+
+		 <section id="main-container" class="eight columns centered single-post">
+			
+			
+	
+<section id="post-82" class="post-82 post type-post status-publish format-image has-post-thumbnail hentry category-uncategorized tag-music-2">		
+
+		 
+	 <div class="entry-time">
+		
+		<span class="meta-title">Published:&nbsp;</span>4 years ago	
+	</div><!-- END .entry-time -->	
+		
+	<header class="entry-header clearfix">
+				
+			
+		
+		<div class="entry-content-media">
+		
+						
+			<div class="post-thumb">
+			
+								    
+					<img src="./Codebase Hero _ HTML5 Music Player (Updated)_files/music-player.jpg" class="wp-post-image" width="870" height="653" alt="">
+						
+								
+			</div><!-- END .post-thumb preload -->
+	
+		</div><!-- END .entry-content-media -->
+			
+						
+								
+				<h2 class="entry-title">HTML5 Music Player (Updated)</h2> 
+				
+				<h4></h4>
+				
+						
+	</header><!-- .entry-header -->
+		
+			
+	<article class="entry-content">	
+			
+		<p>Just a small update to make the music player compatible with IE7 and IE8. Now all major browsers are supported.</p>
+<p>LICENSE: Unlike the rest of the resources on this site, this plugin is licensed under the MIT license. </p>
+<p><span id="more-82"></span><span class="show-related">media-box</span></p>
+<div class="download-and-demo clearfix"><a class="download" href="http://www.codebasehero.com/download?file=music-player-1.0.1">Download</a><a class="demo" href="http://www.codebasehero.com/files/music-player-1.0.1/demo" target="_blank">Demo</a></div>
+<p><strong>Usage:</strong></p>
+<pre>  //Initialize the plugin
+   $('body').ttwMusicPlayer(myPlaylist, {options});
+
+   //You can specify the following options in the options object:
+   {
+        currencySymbol:'$',
+        buyText:'BUY',
+        tracksToShow:5,
+        autoplay:false,
+        ratingCallback:function(index, playlistItem, rating){
+                //some logic to process the rating, perhaps through an ajax call
+        }
+   }</pre>
+<pre>//Build your playlist. The playlist uses the same format s jPlayer (an array of objects. However, this plugin requires you to add some additional parameters. A sample playlist item:
+   {
+        mp3:'mix/1.mp3',
+	oga:'mix/1.ogg',
+        rating:4.5,
+        title:'Some song title',
+        buy:'http://www.codebasehero.com',
+        price:'0.99',
+        duration:'4:28',
+        artist:'Artist Name',
+        cover:'images/cover.jpg'
+   }</pre>
+	
+	</article><!-- END .entry-content -->	
+	
+		
+	    <div class="entry-meta">
+		    
+		    <ul>
+		    	<li>Tagged:&nbsp;<a href="http://www.codebasehero.com/tag/music-2/" rel="tag">music</a></li><li></li>		    	
+		    </ul>
+		    	
+	    </div><!-- END .entry-meta -->	
+			<div class="single-pagination hide-for-small">
+		
+				<div class="pagination animated">
+					
+					<span class="pagination-arrows">
+					
+						<span class="page-previous">
+					
+							<a href="http://www.codebasehero.com/2011/06/elegant-form-kit/" rel="prev"></a>					
+						</span><!-- END .page-previous -->
+					
+					</span><!-- END .pagination-arrows -->
+					
+					<span class="pagination-arrows">
+			
+						<span class="page-next">
+					
+							<a href="http://www.codebasehero.com/2011/07/html5-video-player/" rel="next"></a>					
+						</span><!-- END .page-next -->
+					
+					</span><!-- END .pagination-arrows -->
+			
+				</div><!-- END .pagination -->
+			
+			</div><!-- END .single-pagination -->		
+			
+					
+		<div class="social-share">
+		
+			<ul>
+			
+				<li class="social-share twitter">
+				
+					<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/tweet_button.b169aa788731255dd55f1bb243b660e1.en.html" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="position: static; visibility: visible; width: 81px; height: 20px;"></iframe>
+				
+				</li><!-- END .social-share twitter -->
+			
+				<li class="social-share facebook">
+					
+					<div class="fb-like fb_iframe_widget" data-href="http://www.codebasehero.com/2011/07/html5-music-player-updated/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=http%3A%2F%2Fwww.codebasehero.com%2F2011%2F07%2Fhtml5-music-player-updated%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=450"><span style="vertical-align: bottom; width: 77px; height: 20px;"><iframe name="fef4d6e8" width="450px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/like.html" style="border: none; visibility: visible; width: 77px; height: 20px;" class=""></iframe></span></div>
+				
+				</li><!-- END .social-share facebook -->
+		
+			</ul>
+		
+		</div><!-- END .social-share -->	
+			
+		<!-- TWITTER BTN SCRIPT -->
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+		</script>
+		
+		<!-- FACEBOOK BTN SCRIPT -->
+		<div id="fb-root" class="fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/xd_arbiter.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/xd_arbiter(1).html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+		<script>
+		(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+				
+	
+</section><!-- END #post-82 -->	
+
+                      
+
+<div id="comments">
+	
+			<div class="twelve">
+		
+			<div class="comments-title">
+			
+				<h5><span>26</span> Comments.</h5>
+		
+			</div><!-- END #comments-title -->
+			
+			<div id="comments-list" class="comments">
+				    	
+				  
+				                                    
+				                           
+		        	<ol>
+		       					<li class="comment even thread-even depth-1 parent" id="comment-242">
+				<div id="div-comment-242" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/1e48df7eb030e1215e1e38456e891bce" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Paul</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-242">
+			September 11, 2013 at 8:13 am</a>		</div>
+
+		<p>Good day! My problem with the player is that I can not play the audio files in IE7/IE8.<br>
+I’ll be very grateful if you could help me solve this problem. Hier is the Link to the site:<br>
+<a href="http://lingen-koeln.de/bme/2013-09-26/Helene%20Fischer/demo/index.html" rel="nofollow">http://lingen-koeln.de/bme/2013-09-26/Helene%20Fischer/demo/index.html</a></p>
+<p>Best Regards</p>
+<p>Paul</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-2" id="comment-264">
+				<div id="div-comment-264" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/1e48df7eb030e1215e1e38456e891bce" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Paul</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-264">
+			September 11, 2013 at 11:03 am</a>		</div>
+
+		<p>funny thing is that when I go to the demo page with IE, everything works without any problems. But when download the demo folder and check local the index.html under IE7/8, the files can not be played. <img src="./Codebase Hero _ HTML5 Music Player (Updated)_files/icon_sad.gif" alt=":(" class="wp-smiley"> </p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-1023">
+				<div id="div-comment-1023" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/7f67fadd83b95d8898c1560a56d9be41" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">wenfan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-1023">
+			September 16, 2013 at 6:23 pm</a>		</div>
+
+		<p>Hello, there’s a problem that, why can’t it auto play even if I set </p>
+<p>autoPlay:true,</p>
+<p>Thx a lot ! Looking forward to your help!</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-2 parent" id="comment-2005">
+				<div id="div-comment-2005" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/914430fa581a461534bf39c0a70578c3" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">leosin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2005">
+			September 27, 2013 at 9:13 am</a>		</div>
+
+		<p>me too..<br>
+autoPlay:true  invalid</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor even depth-3 parent" id="comment-2029">
+				<div id="div-comment-2029" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/f76f470452f8d24a57fc9c031103dcf8" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Saleem</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2029">
+			September 27, 2013 at 5:48 pm</a>		</div>
+
+		<p>Try auoPlay:true and autoplay:true. I vaguely recall the capitalization being wrong, but I don’t remember which is correct. I built this plugin a couple of years ago….</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-4 parent" id="comment-2438">
+				<div id="div-comment-2438" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/5949ce51e3efb8ad60042499c3bb6530" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">CreativeLatino</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2438">
+			October 3, 2013 at 7:08 pm</a>		</div>
+
+		<p>It is with a lowercase “p”, autoplay</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-5" id="comment-2595">
+				<div id="div-comment-2595" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/f4449295d3fef83287ac07d6f085c163" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Scott</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2595">
+			October 18, 2013 at 7:56 pm</a>		</div>
+
+		<p>Good call with the lower case “p”. I am sure that it is a lot of code for you to go through and change SO NICE keeping up with your comments here.  Good Job!!!</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-1413">
+				<div id="div-comment-1413" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/fa0eb06f9ab072dc55b70e37d3c560f3" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Alex</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-1413">
+			September 20, 2013 at 9:42 am</a>		</div>
+
+		<p>Hi, I observed you have a big problem, the page is not loading if you have a _’_ in file name and/or title of the song</p>
+<p>even if it is escaped, \’ , still not working…</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-2" id="comment-1431">
+				<div id="div-comment-1431" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/fa0eb06f9ab072dc55b70e37d3c560f3" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Alex</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-1431">
+			September 20, 2013 at 12:27 pm</a>		</div>
+
+		<p>sorry.. escaped stings worked fine <img src="./Codebase Hero _ HTML5 Music Player (Updated)_files/icon_smile.gif" alt=":)" class="wp-smiley"> </p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-1469">
+				<div id="div-comment-1469" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/5a104edd4fb6627d4c51d97191a93059" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Josh</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-1469">
+			September 20, 2013 at 8:02 pm</a>		</div>
+
+		<p>I canno’t Seem to get  Two Tracks on, When I try Ie:</p>
+<p>//Build your playlist. The playlist uses the same format s jPlayer (an array of objects. However, this plugin requires you to add some additional parameters. A sample playlist item:<br>
+   {<br>
+        mp3:’mix/2.mp3′,<br>
+	oga:’mix/2.ogg’,<br>
+        rating:4.5,<br>
+        title:’Some song title’,<br>
+        buy:’http://www.codebasehero.com’,<br>
+        price:’0.99′,<br>
+        duration:’4:28′,<br>
+        artist:’Artist Name’,<br>
+        cover:’images/cover.jpg’<br>
+   }<br>
+   {<br>
+        mp3:’mix/1.mp3′,<br>
+	oga:’mix/1.ogg’,<br>
+        rating:4.5,<br>
+        title:’Some song title’,<br>
+        buy:’http://www.codebasehero.com’,<br>
+        price:’0.99′,<br>
+        duration:’4:28′,<br>
+        artist:’Artist Name’,<br>
+        cover:’images/cover.jpg’<br>
+   }</p>
+<p>There is just and error.</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-2" id="comment-2577">
+				<div id="div-comment-2577" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/59c18c74a3ba3aab51444de0d8287d88" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Dakaskos</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2577">
+			October 11, 2013 at 7:55 am</a>		</div>
+
+		<p>U forgot ‘,’</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt depth-2" id="comment-2581">
+				<div id="div-comment-2581" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/873aea88d73659f5d80c7c0ad435f6fa" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">fishy</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2581">
+			October 13, 2013 at 11:46 am</a>		</div>
+
+		<p>add a “,” after the “}”</p>
+<p>ex:<br>
+{<br>
+mp3:’mix/2.mp3′,<br>
+oga:’mix/2.ogg’,<br>
+rating:4.5,<br>
+title:’Some song title’,<br>
+buy:’http://www.codebasehero.com’,<br>
+price:’0.99′,<br>
+duration:’4:28′,<br>
+artist:’Artist Name’,<br>
+cover:’images/cover.jpg’<br>
+},<br>
+{ etc.</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even depth-2" id="comment-2585">
+				<div id="div-comment-2585" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/bbadee49f808c1c87ef6d5e2f3ec6350" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Ibrahim Omer</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2585">
+			October 15, 2013 at 4:33 am</a>		</div>
+
+		<p>Add  “,” between tracks</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-1508">
+				<div id="div-comment-1508" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/2ed58711bb31e06d04b41c197ea046cd" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Starr</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-1508">
+			September 21, 2013 at 2:29 am</a>		</div>
+
+		<p>This player is phenomenal. However, I am wondering how I can control where it is placed on the page. I am assuming I am missing something within the style.css file. Nevertheless, I a don’t want the player separate from the content on the site. Am I making sense?</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-1553">
+				<div id="div-comment-1553" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/8ede3539af258da337ea74ef42bd9ef4" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Ed Emerson</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-1553">
+			September 21, 2013 at 4:32 pm</a>		</div>
+
+		<p>Forgive me for I am an idiot. I’ve gotten the player working fine on my page but am at a loss to understand how to position it properly. It’s appearing at the bottom of my page, below the footer. I’m not very familiar with javascript. </p>
+<p>How can I tell it where to appear on the page? Do I need to add something after $(‘body’).</p>
+<p><a href="http://vudoucircuit.com/emtw" rel="nofollow">http://vudoucircuit.com/emtw</a></p>
+
+		<div class="reply">
+					</div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-2" id="comment-2583">
+				<div id="div-comment-2583" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/873aea88d73659f5d80c7c0ad435f6fa" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">fishy</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2583">
+			October 13, 2013 at 2:26 pm</a>		</div>
+
+		<p>you can change the $(‘body’) to:<br>
+$(‘.someclassname’)</p>
+<p>in the html add  wherever you want it possitioned</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-2143">
+				<div id="div-comment-2143" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/6557961894ccea8a83b49406141f9c7f" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">RMK</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2143">
+			September 29, 2013 at 7:45 am</a>		</div>
+
+		<p>Hey great work …!! Easy to use and just everything i need … <img src="./Codebase Hero _ HTML5 Music Player (Updated)_files/icon_smile.gif" alt=":)" class="wp-smiley"><br>
+But one question … how can i link on the player to play as example the 3rd track of the playlist? </p>
+<p>How can i start another track then the first one if i want to make a direct link from another location/website?</p>
+<p>Thanx for your great work!</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-2344">
+				<div id="div-comment-2344" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/dd3be6b2178ff30cea85602e812298d7" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">RaZz!</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2344">
+			October 2, 2013 at 1:17 pm</a>		</div>
+
+		<p>I Love this! Thank you.<br>
+How could I use currentTime? For example I want to put a Mixtape with 20 tracks in one MP3 in the player.<br>
+How can I jump to the tracks?<br>
+Best regards,<br>
+RaZz!</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-2580">
+				<div id="div-comment-2580" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/59d51dbe6f9ebea242247762e63a19ee" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">mehrdad</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2580">
+			October 13, 2013 at 6:13 am</a>		</div>
+
+		<p>How to Enable Volume Control?</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-2582">
+				<div id="div-comment-2582" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/e838879261d783d7dd3bd9cd67a9bb90" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Oliver</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2582">
+			October 13, 2013 at 12:35 pm</a>		</div>
+
+		<p>Hi, how can I choose where to place it? Regards</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1 parent" id="comment-2584">
+				<div id="div-comment-2584" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/35758f89752c800e61ce0c08cb635326" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Anton</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2584">
+			October 14, 2013 at 9:23 pm</a>		</div>
+
+		<p>Hello, very good player. Is there a simple way to programatically switch to another track? For examle $(‘.jp-next’).click() don’t work for me.</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-2586">
+				<div id="div-comment-2586" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/f76f470452f8d24a57fc9c031103dcf8" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Saleem</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2586">
+			October 15, 2013 at 10:31 pm</a>		</div>
+
+		<p>I’ve never tried, but  $(‘.jp-next’).trigger(‘click’) might work.</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-2592">
+				<div id="div-comment-2592" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/40add128696d28a018e85b2cce9cf00c" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Trevor</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2592">
+			October 17, 2013 at 12:30 am</a>		</div>
+
+		<p>Hi,</p>
+<p>I love the player.  Unfortunately it doesn’t seem to work in Firefox.  When viewed in Firefox 24.0 on my mac the controls do not work and no audio will play.  Has anyone else seen this or had any luck getting it to work?  Works great in Safari (desktop and mobile) and Chrome.</p>
+<p>Thanks!</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-2594">
+				<div id="div-comment-2594" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/cbfca03d5d72b6b5db934e15c0946552" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">chepalana</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2594">
+			October 17, 2013 at 5:44 am</a>		</div>
+
+		<p>Hello, </p>
+<p>I am trying to add number of times music is being played. I would like to call it everytime the song changes to it’s next track. But, I can’t find what event is used to play the next song.</p>
+<p>Can you please help me, any ideas?</p>
+<p>Thanks</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-2598">
+				<div id="div-comment-2598" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/16c2c880724a323b749f1b2b8590cb4d" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">SenorCoolGuy</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2598">
+			October 20, 2013 at 4:36 am</a>		</div>
+
+		<p>Looks good, but needs a random feature.</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-2602">
+				<div id="div-comment-2602" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/eecf80fa2bb9334445b14f70ea4b136e" class="avatar avatar-150 photo" height="150" width="150">			<cite class="fn">Ravi Kumar</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#comment-2602">
+			October 24, 2013 at 5:34 am</a>		</div>
+
+		<p>hello Saleem,<br>
+u did a great job and i observed that ur ttwplayer code is based on jPlayer as i found it on jPlayer.org.<br>
+I have two issues:<br>
+1. u said that it will work on IE 7 and 8 too but it is not working.<br>
+When i tried ur online it works but when i downloaded it is not.<br>
+2. how can i have multiple instance of the player on the same page.</p>
+<p>Can u say something about my issues.<br>
+thanks<br>
+Ravi Bhadauria</p>
+
+		<div class="reply">
+					</div>
+				</div>
+		</li><!-- #comment-## -->
+		        	</ol>
+				 
+				 
+			</div><!-- END #comments-list .comments -->
+		
+		</div><!-- END .twelve columns -->	
+			
+				
+		<div id="respond">
+		
+			<p id="reply-title"><strong>Comments have been disabled.</strong></p>
+	   
+	        	        
+	    </div>
+	
+	
+</div><!-- END #comments-respond -->
+		
+<div class="comments-info">
+	
+	<span data-tooltip="" class="has-tip tip-top comments-html" data-width="170" title="&lt;a href=““&gt;&lt;/a&gt;, &lt;b&gt;,  &lt;strong&gt;, &lt;em&gt;, &lt;i&gt; &lt;code&gt;, &lt;strike&gt; ">Some HTML is OK</span>	
+
+</div><!-- END .comments-info -->
+
+
+			</section>	
+	
+		</div> <!-- END #page -->
+
+	</div><!-- END #wrapper -->
+ 	
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23925616-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script type="text/javascript" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/custom-libraries.js"></script>
+<script type="text/javascript" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/custom.js"></script>
+<script type="text/javascript" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/retina.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_var = {"url":"http:\/\/www.codebasehero.com\/wp-admin\/admin-ajax.php","nonce":"2e0c76359a"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Codebase Hero _ HTML5 Music Player (Updated)_files/post-like.js"></script>
+
+
+
+<a href="http://www.codebasehero.com/2011/07/html5-music-player-updated/#" id="toTop" style="display: inline;"><span id="toTopHover"></span>Back To Top</a></body></html>

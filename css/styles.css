@@ -13,6 +13,10 @@ body {
 	content: "";
 }
 
+header {
+	margin-bottom: 25px;
+}
+
 /* COLUMNS */
 
 [_col] {
@@ -63,10 +67,12 @@ body {
 
 /* [] 1. Change overlayed play button */
 .mejs-378 .mejs-overlay-button {
+	display: none;
 }
 
 /* [] 2. Control Wrapper Positioning */
 .mejs-378 .mejs-controls {
+	visibility: hidden;
 }
 
 /* [] 3. Play Button */
@@ -85,6 +91,7 @@ body {
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: red;
 }
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
@@ -95,21 +102,78 @@ img, video, audio {
 
 #tv {
 	z-index: 3;
+	/*width: 100%;*/
+	/*height: 694.44px;*/
 }
 
-video{
+#dial {
+	width: 50px;
+	z-index: 7;
 	position: relative;
-	bottom: 536px;
-	right: 136px;
+	bottom: 422px;
+	left: 842px;
+}
+
+.dial1 {
+	transform: rotate(25deg);
+}
+
+.dial2 {
+	transform: rotate(65deg);
+}
+
+.dial3 {
+	transform: rotate(105deg);
+}
+
+.dial4 {
+	transform: rotate(125deg);
+}
+
+#static {
+	z-index: -3;
+	position: relative;
+	bottom: 906px;
+	right: 85px;
+	height: 514px;
+}
+
+#trailer {
 	z-index: -1;
-	height: 400px;
+	position: relative;
+	bottom: 542px;
+	right: 78px;
+	height: 445px;
 }
 
 #channel {
-	height: 100px;
-	width: 100px;
-	background: #fff;
+	height: 178px;
+	width: 186px;
+	/*background: #fff;*/
+	position: relative;
+	bottom: 772px;
+	left: 881px;
+
 }
+
+#channel, #channel-1, #channel-2, #channel-3, #channel-4, #channel-5 {
+	color: #000;
+	background: #fff;
+	z-index: 5;
+	border-radius: 50%;
+	cursor: pointer;
+
+
+}
+
+#channel-1, #channel-2, #channel-3, #channel-4, #channel-5 {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
 /********************
 MEDIA QUERIES
 *******************/
