@@ -2,13 +2,19 @@
 
 var click = 0;
 
-$('video').mediaelementplayer();
+var player = $('video').mediaelementplayer();
 
-$('#channel').click(
-	click++;
-	if (click > 3) {
-		//play video
-		click = 0;
+
+$('#channel').click( 
+	function () {
+		click++;
+		console.log(player);
+
+			if (click > 3) {
+				player[0].play();
+				click = 0;
+			}
 	}
+
 );
 

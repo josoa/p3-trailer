@@ -63,35 +63,28 @@ body {
 
 /* [] 1. Change overlayed play button */
 .mejs-378 .mejs-overlay-button {
- 
 }
 
 /* [] 2. Control Wrapper Positioning */
 .mejs-378 .mejs-controls {
-
 }
 
 /* [] 3. Play Button */
 .mejs-378 .mejs-controls .mejs-play button {
-	
 }
 
 /* [] 4. Current Time Display */
 .mejs-378 .mejs-controls .mejs-currenttime {
-	
 }
 
 /* [] 5. Rail: Current Loaded, To Load, & Background */
 .mejs-378 .mejs-controls div.mejs-time-rail {
-	
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded {
-	background: green;
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: red;
 }
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
