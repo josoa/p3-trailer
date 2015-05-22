@@ -20,6 +20,10 @@ body {
 	margin: 0 15px;
 }
 
+[_col~="1/4"] {
+	width: calc(25% - 30px);
+}
+
 [_col~="1/3"] {
 	width: calc(33.333333333% - 30px);
 }
@@ -30,6 +34,10 @@ body {
 
 [_col~="2/3"] {
 	width: calc(66.6666666666% - 30px);
+}
+
+[_col~="3/4"] {
+	width: calc(75% - 30px);
 }
 
 [_col~="1"] {
@@ -88,14 +96,26 @@ body {
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
 
+img, video, audio {
+	width: 100%;
+}
+
 #tv {
 	z-index: 3;
 }
 
 video{
 	position: relative;
-	bottom: 400px;
-	left: 100px;
+	bottom: 536px;
+	right: 136px;
+	z-index: -1;
+	height: 400px;
+}
+
+#channel {
+	height: 100px;
+	width: 100px;
+	background: #fff;
 }
 /********************
 MEDIA QUERIES
