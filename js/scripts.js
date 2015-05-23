@@ -1,19 +1,24 @@
 // My Scripts
 
+// #mep_0 = 
+
 var click = 0;
 
 var player = $('video').mediaelementplayer({
 	alwaysShowControls: false,
 	features: []
 });
-		
-$('#static').hide();
+
+
+$('#mep_0').addClass('hide');
+
 
 $('#channel').click( 
 	function () {
 		player[0].pause();
-		$('#static').show();
-		$('#trailer').hide();
+
+		$('#mep_0').addClass('hide');
+		$('#mep_1').removeClass('hide');
 		player[1].play();
 
 		$('#dial').removeClass('dial' + click);
@@ -22,8 +27,8 @@ $('#channel').click(
 		
 
 			if (click == 4) {
-				$('#static').hide();
-				$('#trailer').show();
+		$('#mep_1').addClass('hide');
+		$('#mep_0').removeClass('hide');
 				player[0].play();
 				click = 0;
 				$('#dial').removeClass('dial4');
@@ -42,8 +47,8 @@ $('#channel-1').click(
 		$('#dial').removeClass('dial' + click);
 		click = 1;
 		$('#dial').addClass('dial' + click);
-		$('#static').show();
-		$('#trailer').hide();
+		$('.mejs-mediaelement #trailer').addClass('hide');
+		$('.mejs-mediaelement #static').removeClass('hide');
 		player[1].play();
 	}
 );
@@ -54,8 +59,8 @@ $('#channel-2').click(
 		$('#dial').removeClass('dial' + click);
 		click = 2;
 		$('#dial').addClass('dial' + click);
-		$('#static').show();
-		$('#trailer').hide();
+		$('.mejs-mediaelement #trailer').addClass('hide');
+		$('.mejs-mediaelement #static').removeClass('hide');
 		player[1].play();
 	}
 );
@@ -66,8 +71,8 @@ $('#channel-3').click(
 		$('#dial').removeClass('dial' + click);
 		click = 3;
 		$('#dial').addClass('dial' + click);
-		$('#static').show();
-		$('#trailer').hide();
+		$('.mejs-mediaelement #trailer').addClass('hide');
+		$('.mejs-mediaelement #static').removeClass('hide');
 		player[1].play();
 	}
 );
@@ -76,8 +81,8 @@ $('#channel-4').click(
 	function() {
 		$('#dial').removeClass('dial' + click);
 		click = 0;
-		$('#static').hide();
-		$('#trailer').show();
+		$('.mejs-mediaelement #static').addClass('hide');
+		$('.mejs-mediaelement #trailer').removeClass('hide');
 		player[0].play();
 
 	}

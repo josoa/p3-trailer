@@ -1,7 +1,7 @@
-body {
+/*body {
 	background-image: url('../img/blackorchid.png');
 }
-
+*/
 .container {
 	max-width: 1200px;
 	margin: 25px auto;
@@ -63,37 +63,16 @@ header {
 .mejs-overlay {
 	
 	/* Hack around Media Element Player */
-	width: 100% !important;
+	/*width: 100% !important;*/
 }
 
 /* [] 1. Change overlayed play button */
-.mejs-378 .mejs-overlay-button {
+.mejs-378 .mejs-overlay-button, .mejs-overlay-play, .mejs-layer .mejs-overlay, .mejs-378 .mejs-controls, .mejs-378 .mejs-controls .mejs-play button, .mejs-controls, .mejs-378 .mejs-controls .mejs-currenttime, .mejs-378 .mejs-controls div.mejs-time-rail, .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded, .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
 	display: none;
-}
-
-/* [] 2. Control Wrapper Positioning */
-.mejs-378 .mejs-controls {
 	visibility: hidden;
+	width: 0;
 }
 
-/* [] 3. Play Button */
-.mejs-378 .mejs-controls .mejs-play button {
-}
-
-/* [] 4. Current Time Display */
-.mejs-378 .mejs-controls .mejs-currenttime {
-}
-
-/* [] 5. Rail: Current Loaded, To Load, & Background */
-.mejs-378 .mejs-controls div.mejs-time-rail {
-}
-
-.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded {
-}
-
-.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: red;
-}
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
 
@@ -103,8 +82,6 @@ img, video, audio {
 
 #tv {
 	z-index: 3;
-	/*width: 100%;*/
-	/*height: 694.44px;*/
 }
 
 #dial {
@@ -131,8 +108,17 @@ img, video, audio {
 	transform: rotate(180deg);
 }
 
+/*.mejs-container {
+	position: relative;
+	bottom: 806px;
+	right: 116px;
+	height: 565px;
+	z-index: -3;
 
-#static {
+}
+
+*/
+#mep_1 {
 	z-index: -3;
 	position: relative;
 	bottom: 906px;
@@ -140,13 +126,22 @@ img, video, audio {
 	height: 514px;
 }
 
-#trailer {
+#static {
+	width: 500px;
+}
+
+#mep_0 {
 	z-index: -1;
 	position: relative;
 	bottom: 806px;
 	right: 116px;
 	height: 565px;
 }
+
+.hide {
+	visibility: hidden;
+}
+
 
 #channel {
 	height: 178px;
@@ -169,7 +164,6 @@ img, video, audio {
 	z-index: 5;
 	border-radius: 50%;
 	cursor: pointer;
-
 
 }
 
