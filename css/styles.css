@@ -121,21 +121,20 @@ img, video, audio {
 #mep_1 {
 	z-index: -3;
 	position: relative;
-	bottom: 906px;
-	right: 85px;
-	height: 514px;
+	bottom: 1270px;
+	right: -117px;
 }
 
-#static {
-	width: 500px;
+#static, #trailer {
+	width: 750px;
+	height: 849px;
 }
 
 #mep_0 {
 	z-index: -1;
 	position: relative;
-	bottom: 806px;
-	right: 116px;
-	height: 565px;
+	bottom: 950px;
+	right: -120px;
 }
 
 .hide {

@@ -1,6 +1,7 @@
 // My Scripts
 
-// #mep_0 = 
+// #mep_0 = #trailer
+// #mep_1 = #static
 
 var click = 0;
 
@@ -47,8 +48,8 @@ $('#channel-1').click(
 		$('#dial').removeClass('dial' + click);
 		click = 1;
 		$('#dial').addClass('dial' + click);
-		$('.mejs-mediaelement #trailer').addClass('hide');
-		$('.mejs-mediaelement #static').removeClass('hide');
+		$('#mep_0').addClass('hide');
+		$('#mep_1').removeClass('hide');
 		player[1].play();
 	}
 );
@@ -59,8 +60,8 @@ $('#channel-2').click(
 		$('#dial').removeClass('dial' + click);
 		click = 2;
 		$('#dial').addClass('dial' + click);
-		$('.mejs-mediaelement #trailer').addClass('hide');
-		$('.mejs-mediaelement #static').removeClass('hide');
+		$('#mep_0').addClass('hide');
+		$('#mep_1').removeClass('hide');
 		player[1].play();
 	}
 );
@@ -71,8 +72,8 @@ $('#channel-3').click(
 		$('#dial').removeClass('dial' + click);
 		click = 3;
 		$('#dial').addClass('dial' + click);
-		$('.mejs-mediaelement #trailer').addClass('hide');
-		$('.mejs-mediaelement #static').removeClass('hide');
+		$('#mep_0').addClass('hide');
+		$('#mep_1').removeClass('hide');
 		player[1].play();
 	}
 );
@@ -81,8 +82,8 @@ $('#channel-4').click(
 	function() {
 		$('#dial').removeClass('dial' + click);
 		click = 0;
-		$('.mejs-mediaelement #static').addClass('hide');
-		$('.mejs-mediaelement #trailer').removeClass('hide');
+		$('#mep_1').addClass('hide');
+		$('#mep_0').removeClass('hide');
 		player[0].play();
 
 	}
