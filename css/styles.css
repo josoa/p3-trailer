@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 25px auto;
 }
 
@@ -108,11 +108,11 @@ img, video, audio {
 }
 
 #dial {
-	width: 50px;
+	width: 89px;
 	z-index: 7;
 	position: relative;
-	bottom: 422px;
-	left: 842px;
+	bottom: 542px;
+	left: 1002px;
 }
 
 .dial0 {
