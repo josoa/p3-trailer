@@ -1,7 +1,7 @@
-/*body {
+body {
 	background-image: url('../img/blackorchid.png');
 }
-*/
+
 .container {
 	max-width: 1200px;
 	margin: 25px auto;
@@ -11,10 +11,6 @@
 	display: table;
 	clear: both;
 	content: "";
-}
-
-header {
-	margin-bottom: 25px;
 }
 
 
@@ -61,7 +57,12 @@ header {
 /* Wrapper container */
 .mejs-container,
 .mejs-overlay {
+
+	/* FIX ME! */
+
+height: 0 !important;
 	
+
 	/* Hack around Media Element Player */
 	/*width: 100% !important;*/
 }
@@ -81,12 +82,12 @@ img, video, audio {
 }
 
 #tv {
-	z-index: 3;
+	z-index: 1;
 }
 
 #dial {
 	width: 89px;
-	z-index: 7;
+	z-index: 1;
 	position: relative;
 	bottom: 542px;
 	left: 1002px;
@@ -97,38 +98,30 @@ img, video, audio {
 }
 
 .dial1 {
-	transform: rotate(45deg);
-}
-
-.dial2 {
 	transform: rotate(90deg);
 }
 
-.dial3 {
+.dial2 {
 	transform: rotate(180deg);
 }
 
-/*.mejs-container {
-	position: relative;
-	bottom: 806px;
-	right: 116px;
-	height: 565px;
-	z-index: -3;
-
+.dial3 {
+	transform: rotate(270deg);
 }
 
-*/
-#mep_1 {
-	z-index: -3;
-	position: relative;
-	bottom: 1270px;
-	right: -117px;
-}
 
 #static, #trailer {
 	width: 750px;
 	height: 849px;
 }
+
+#mep_1 {
+	z-index: -3;
+	position: relative;
+	bottom: 952px;
+	right: -117px;
+}
+
 
 #mep_0 {
 	z-index: -1;
@@ -143,23 +136,17 @@ img, video, audio {
 
 
 #channel {
-	height: 178px;
-	width: 186px;
+	height: 87px;
+	width: 87px;
 	/*background: #fff;*/
 	position: relative;
-	bottom: 772px;
-	left: 881px;
+	bottom: 630px;
+	left: 1006px;
 
-}
-
-.channel {
-	position: relative;
-	bottom: 1003px;
 }
 
 #channel, #channel-1, #channel-2, #channel-3, #channel-4, #channel-5 {
-	color: #000;
-	background: #fff;
+	color: #fff;
 	z-index: 5;
 	border-radius: 50%;
 	cursor: pointer;
@@ -172,6 +159,73 @@ img, video, audio {
 	width: 50px;
 	text-align: center;
 	line-height: 50px;
+}
+
+#channel-1 {
+	bottom: 765px;
+	left: 1026px;
+}
+
+#channel-2 {
+	bottom: 749px;
+	left: 1089px;
+}
+
+#channel-3 {
+	bottom: 729px;
+	left: 1025px;
+}
+
+#channel-4 {
+	bottom: 849px;
+	left: 957px;
+}
+
+#instruct {
+	z-index: 3;
+	position: relative;
+	bottom: 909px;
+	left: 150px;
+}
+
+#tickets {
+	position: relative;
+	bottom: 408px;
+}
+
+/* typography */
+
+body {
+	font-family: 'Della Respira', serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #fff;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #eee;
+}
+
+a:hover, a:target, a:active {	
+	color: #aaa;
+}
+
+li {
+	list-style: none;
+	margin-bottom: .45em;
+}
+
+#instruct > p {
+	font-size: 1.3em;
+	background: #000;
+	display: inline;
+	padding: 5px;
+}
+
+#tickets {
+	font-size: 2em;
+	text-align: center;
 }
 
 /********************

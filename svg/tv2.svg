@@ -18,17 +18,17 @@
 	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="459.158" y1="533.789" x2="569.685" y2="533.789"/>
 </g>
 <g>
-	<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="484" y1="471.5" x2="543.5" y2="471.5"/>
-	<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="472.5" y1="483.917" x2="553.5" y2="483.917"/>
-	<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="469" y1="496.333" x2="560.5" y2="496.333"/>
-	<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="467" y1="508.75" x2="561" y2="508.75"/>
-	<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="467.5" y1="521.167" x2="559" y2="521.167"/>
-	<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="474.5" y1="533.583" x2="554.5" y2="533.583"/>
-	<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="483.5" y1="546" x2="543" y2="546"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="484" y1="471.5" x2="543.5" y2="471.5"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="472.5" y1="483.917" x2="553.5" y2="483.917"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="469" y1="496.333" x2="560.5" y2="496.333"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="467" y1="508.75" x2="561" y2="508.75"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="467.5" y1="521.167" x2="559" y2="521.167"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="474.5" y1="533.583" x2="554.5" y2="533.583"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="483.5" y1="546" x2="543" y2="546"/>
 </g>
 <g>
-	<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="514.746" cy="239.746" r="45.5"/>
-	<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="514.746" cy="239.746" r="20"/>
+	<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="514.746" cy="233.74" r="45.5"/>
+	<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="514.746" cy="233.74" r="20"/>
 </g>
 <g>
 	<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="514.746" cy="335.743" r="45.5"/>

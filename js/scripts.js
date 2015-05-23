@@ -7,17 +7,18 @@ var click = 0;
 
 var player = $('video').mediaelementplayer({
 	alwaysShowControls: false,
-	features: []
+	features: [],
+	loop: true
 });
 
 
 $('#mep_0').addClass('hide');
-
+player[1].play();
 
 $('#channel').click( 
 	function () {
 		player[0].pause();
-
+		$('#instruct').removeClass('hide');
 		$('#mep_0').addClass('hide');
 		$('#mep_1').removeClass('hide');
 		player[1].play();
@@ -26,15 +27,21 @@ $('#channel').click(
 		click++;
 		$('#dial').addClass('dial' + click);
 		
+		if (click == 2) {
+			$('#mep_1').addClass('hide');
+			$('#instruct').addClass('hide');
+			$('#mep_0').removeClass('hide');
+			player[0].play();
+		}
 
-			if (click == 4) {
-		$('#mep_1').addClass('hide');
-		$('#mep_0').removeClass('hide');
-				player[0].play();
-				click = 0;
-				$('#dial').removeClass('dial4');
 
-			}
+		if (click == 4) {
+			$('#mep_0').addClass('hide');
+			$('#mep_1').removeClass('hide');
+			click = 0;
+			$('#dial').removeClass('dial4');
+
+		}
 
 
 			console.log('dial' + click);
@@ -43,10 +50,9 @@ $('#channel').click(
 
 $('#channel-1').click(
 	function() {
-		player[0].pause();
-
+		$('#instruct').removeClass('hide');
 		$('#dial').removeClass('dial' + click);
-		click = 1;
+		click = 0;
 		$('#dial').addClass('dial' + click);
 		$('#mep_0').addClass('hide');
 		$('#mep_1').removeClass('hide');
@@ -55,10 +61,9 @@ $('#channel-1').click(
 );
 $('#channel-2').click(
 	function() {
-		player[0].pause();
-
+		$('#instruct').removeClass('hide');
 		$('#dial').removeClass('dial' + click);
-		click = 2;
+		click = 1;
 		$('#dial').addClass('dial' + click);
 		$('#mep_0').addClass('hide');
 		$('#mep_1').removeClass('hide');
@@ -66,25 +71,26 @@ $('#channel-2').click(
 	}
 );
 $('#channel-3').click(
-	function() {
-		player[0].pause();
+	function() {		
+		$('#instruct').addClass('hide');
+		$('#dial').removeClass('dial' + click);
+		click = 2;
+		$('#dial').addClass('dial' + click);
+		$('#mep_1').addClass('hide');
+		$('#mep_0').removeClass('hide');
+		player[0].play();
+	}
+);
 
+$('#channel-4').click(
+	function() {
+		$('#instruct').removeClass('hide');
 		$('#dial').removeClass('dial' + click);
 		click = 3;
 		$('#dial').addClass('dial' + click);
 		$('#mep_0').addClass('hide');
 		$('#mep_1').removeClass('hide');
 		player[1].play();
-	}
-);
-
-$('#channel-4').click(
-	function() {
-		$('#dial').removeClass('dial' + click);
-		click = 0;
-		$('#mep_1').addClass('hide');
-		$('#mep_0').removeClass('hide');
-		player[0].play();
 
 	}
 
