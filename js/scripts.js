@@ -2,18 +2,22 @@
 
 var click = 0;
 
-var player = $('video').mediaelementplayer();
+var player = $('video').mediaelementplayer({
+	alwaysShowControls: false,
+	features: []
+});
 		
 $('#static').hide();
 
 $('#channel').click( 
 	function () {
-		player[0].stop();
+		player[0].pause();
 		$('#static').show();
 		$('#trailer').hide();
+		player[1].play();
+
 		$('#dial').removeClass('dial' + click);
 		click++;
-		player[1].play;
 		$('#dial').addClass('dial' + click);
 		
 
@@ -33,7 +37,7 @@ $('#channel').click(
 
 $('#channel-1').click(
 	function() {
-		player[0].stop();
+		player[0].pause();
 
 		$('#dial').removeClass('dial' + click);
 		click = 1;
@@ -45,7 +49,7 @@ $('#channel-1').click(
 );
 $('#channel-2').click(
 	function() {
-		player[0].stop();
+		player[0].pause();
 
 		$('#dial').removeClass('dial' + click);
 		click = 2;
@@ -57,8 +61,8 @@ $('#channel-2').click(
 );
 $('#channel-3').click(
 	function() {
-		player[0].stop();
-		
+		player[0].pause();
+
 		$('#dial').removeClass('dial' + click);
 		click = 3;
 		$('#dial').addClass('dial' + click);
